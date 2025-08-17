@@ -32,7 +32,7 @@ class FingerPrintApplicationTests {
 				System.out.println("✅ Successfully connected to the PostgreSQL database.");
 			}
 		} catch (Exception e) {
-			fail("❌ Database connection failed: " + e.getMessage());
+			fail(" Database connection failed: " + e.getMessage());
 		}
 	}
 }
